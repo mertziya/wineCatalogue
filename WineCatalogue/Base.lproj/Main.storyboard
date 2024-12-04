@@ -212,7 +212,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zAS-MX-zyp">
                                         <rect key="frame" x="0.0" y="14.333333333333371" width="125" height="25"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ygq-jw-VGl">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ygq-jw-VGl">
                                                 <rect key="frame" x="0.0" y="-0.33333333333333215" width="25" height="24.666666666666664"/>
                                                 <color key="tintColor" red="0.96862745289999996" green="0.8078432083" blue="0.27450981740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
@@ -220,7 +220,7 @@
                                                     <constraint firstAttribute="height" constant="25" id="zRn-Ry-hGq"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NgN-Cy-4BD">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NgN-Cy-4BD">
                                                 <rect key="frame" x="25" y="-0.33333333333333215" width="25" height="24.666666666666664"/>
                                                 <color key="tintColor" red="0.96862745289999996" green="0.8078432083" blue="0.27450981740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
@@ -228,7 +228,7 @@
                                                     <constraint firstAttribute="height" constant="25" id="buW-ns-XDg"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.leadinghalf.filled" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fE5-4D-pJ7">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fE5-4D-pJ7">
                                                 <rect key="frame" x="50" y="-0.33333333333333215" width="25" height="24.666666666666664"/>
                                                 <color key="tintColor" red="0.96862745289999996" green="0.8078432083" blue="0.27450981740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
@@ -282,9 +282,13 @@
                         <outlet property="fifthStar" destination="oVC-b7-kv5" id="sQb-Ji-nS7"/>
                         <outlet property="firstStar" destination="Ygq-jw-VGl" id="vMS-r5-sl4"/>
                         <outlet property="fourthStar" destination="DPB-bW-IaQ" id="tbf-Gr-0bI"/>
+                        <outlet property="location" destination="VKq-i7-wSa" id="GBm-Ft-tj1"/>
+                        <outlet property="ratingDescription" destination="43e-RN-cll" id="f1o-Xk-4Yk"/>
                         <outlet property="secondStar" destination="NgN-Cy-4BD" id="oTA-sY-x6K"/>
                         <outlet property="thirdStar" destination="fE5-4D-pJ7" id="vcg-IJ-rtz"/>
                         <outlet property="wineImage" destination="pEY-P7-yS9" id="8XE-Pq-xXH"/>
+                        <outlet property="wineName" destination="odB-fk-QTI" id="qc4-5M-DtA"/>
+                        <outlet property="winery" destination="a4p-1z-G6Q" id="FHL-Wr-TXU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0H4-ly-tzv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -337,8 +341,6 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="star" catalog="system" width="128" height="116"/>
-        <image name="star.fill" catalog="system" width="128" height="116"/>
-        <image name="star.leadinghalf.filled" catalog="system" width="128" height="116"/>
         <image name="wineglass" catalog="system" width="95" height="128"/>
         <image name="wineglass.fill" catalog="system" width="95" height="128"/>
         <systemColor name="systemBackgroundColor">
