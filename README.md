@@ -8,13 +8,7 @@ It features a **tab bar** navigation system, each tab displaying a list of wines
 
 ## Demo
 
-<iframe 
-    src="https://github.com/user-attachments/assets/4b170c85-475a-4057-beaa-a14b71e0d668" 
-    width="233" 
-    height="480" 
-    allow="autoplay">
-</iframe>
-
+https://github.com/user-attachments/assets/4b170c85-475a-4057-beaa-a14b71e0d668
 
 ---
 
