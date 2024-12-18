@@ -7,9 +7,12 @@ It features a **tab bar** navigation system, each tab displaying a list of wines
 ---
 
 ## Demo
-
-Check out the live demo of the application: [Wine Catalog App Demo](https://drive.google.com/drive/folders/17GMqzXO9Won6zUK0PadR8v0VBefbvC4M)
-
+<iframe 
+    src="https://drive.google.com/file/d/1wLJh-Oz1ObATLleNvmrS-3CMEU3HK_Ud/view?usp=sharing" 
+    width="233" 
+    height="480" 
+    allow="autoplay">
+</iframe>
 ---
 
 ## Features
@@ -73,6 +76,7 @@ The API supports pagination to load wine data in chunks.
 1. Clone the repository:
    ```bash
    git clone <repository_url>
+   pod install
 
    
 
